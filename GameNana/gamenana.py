@@ -30,7 +30,7 @@ if st.button("Tekan untuk alasan berikutnya ❤️"):
         paket = st.session_state.data_tersisa.pop()
         st.subheader("✨ Aku sayang kamu...")
         st.write(f"...{paket['alasan']}")
-        st.audio(paket['lagu'])
+        st.audio(./ + paket['lagu'])
     else:
         st.success("Alasanku sudah habis untuk sekarang, tapi cintaku tidak akan pernah. ❤️")
         st.balloons()
